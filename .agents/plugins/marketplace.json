@@ -1,0 +1,44 @@
+{
+  "name": "plugins-cli",
+  "interface": {
+    "displayName": "Plugins CLI"
+  },
+  "plugins": [
+    {
+      "name": "stitch-build",
+      "source": {
+        "source": "local",
+        "path": "./.codex\\plugins\\cache\\google-labs-code-stitch-skills\\stitch-build\\1544aa4a3be93e7515b0c27d32722f7ca5a2f691"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "stitch-design",
+      "source": {
+        "source": "local",
+        "path": "./.codex\\plugins\\cache\\google-labs-code-stitch-skills\\stitch-design\\1544aa4a3be93e7515b0c27d32722f7ca5a2f691"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "stitch-utilities",
+      "source": {
+        "source": "local",
+        "path": "./.codex\\plugins\\cache\\google-labs-code-stitch-skills\\stitch-utilities\\1544aa4a3be93e7515b0c27d32722f7ca5a2f691"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Coding"
+    }
+  ]
+}
